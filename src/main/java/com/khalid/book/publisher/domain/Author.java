@@ -1,4 +1,4 @@
-package com.khalid.bookpublisher.domain;
+package com.khalid.book.publisher.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

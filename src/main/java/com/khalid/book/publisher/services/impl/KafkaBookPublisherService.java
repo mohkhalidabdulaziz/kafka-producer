@@ -1,12 +1,12 @@
-package com.khalid.bookpublisher.services.implementation;
+package com.khalid.book.publisher.services.impl;
 
-import com.khalid.bookpublisher.config.KafkaConfigProps;
-import com.khalid.bookpublisher.domain.Book;
-import com.khalid.bookpublisher.exception.BookPublishException;
-import com.khalid.bookpublisher.services.BookPublisherService;
+import com.khalid.book.publisher.config.KafkaConfigProps;
+import com.khalid.book.publisher.domain.Book;
+import com.khalid.book.publisher.services.BookPublisherService;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
+import com.khalid.book.publisher.exceptions.BookPublishException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

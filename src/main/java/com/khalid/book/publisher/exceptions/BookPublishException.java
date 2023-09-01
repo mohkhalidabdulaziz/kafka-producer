@@ -1,6 +1,7 @@
-package com.khalid.bookpublisher.exception;
+package com.khalid.book.publisher.exceptions;
 
-import com.khalid.bookpublisher.domain.Book;
+import com.khalid.book.publisher.domain.Book;
+
 import lombok.Getter;
 
 public class BookPublishException extends RuntimeException {

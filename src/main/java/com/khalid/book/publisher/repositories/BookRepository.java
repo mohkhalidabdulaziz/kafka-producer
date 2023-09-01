@@ -1,8 +1,9 @@
-package com.khalid.bookpublisher.repo;
+package com.khalid.book.publisher.repositories;
 
-import com.khalid.bookpublisher.domain.Book;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
+
+import com.khalid.book.publisher.domain.Book;
 
 public interface BookRepository extends CrudRepository<Book, Long>,
         PagingAndSortingRepository<Book, Long> {

@@ -1,7 +1,6 @@
-package com.khalid.bookpublisher.services;
+package com.khalid.book.publisher.services;
 
-
-import com.khalid.bookpublisher.domain.Book;
+import com.khalid.book.publisher.domain.Book;
 
 /**
  * Publishes books.

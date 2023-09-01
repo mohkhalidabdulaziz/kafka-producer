@@ -1,7 +1,7 @@
-package com.khalid.bookpublisher.cron;
+package com.khalid.book.publisher.scheduled;
 
-import com.khalid.bookpublisher.repo.BookRepository;
-import com.khalid.bookpublisher.services.BookPublisherService;
+import com.khalid.book.publisher.repositories.BookRepository;
+import com.khalid.book.publisher.services.BookPublisherService;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
@@ -26,10 +26,7 @@ public class ScheduledBookPublisher {
         this.bookRepository = bookRepository;
     }
 
-    /**
-     * Task will be executed every 20 seconds.
-     */
-    @Scheduled(cron = "0/30 * * * * *")
+    @Scheduled(cron = "0/20 * * * * *")
     public void publishBook() {
         bookRepository.findById(counter).ifPresentOrElse(book -> {
             counter += 1;

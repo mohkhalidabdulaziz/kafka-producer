@@ -1,4 +1,4 @@
-package com.khalid.bookpublisher.config;
+package com.khalid.book.publisher.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
-// @Profile("production")
+@Profile("production")
 public class KafkaConfig {
 
     @Bean

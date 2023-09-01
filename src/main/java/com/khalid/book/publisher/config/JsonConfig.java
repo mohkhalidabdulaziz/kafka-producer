@@ -1,4 +1,4 @@
-package com.khalid.bookpublisher.config;
+package com.khalid.book.publisher.config;
 
 import java.text.SimpleDateFormat;
 

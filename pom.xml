@@ -9,7 +9,7 @@
 		<relativePath/>
 		<!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.devtiro.book</groupId>
+	<groupId>com.khalid.book</groupId>
 	<artifactId>book-publisher</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>book-publisher</name>
